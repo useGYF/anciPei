@@ -16,17 +16,17 @@
     data() {
       return {
         layers: [{
-          url: '/static/data/GC_Y.json',
+          url: '/static/data/GN_Y.json',
           hasVisible: true,
           displayFieldName: 'FCNAME',
           geometry: []
         }, {
-          url: '/static/data/GC_E.json',
+          url: '/static/data/GN_E.json',
           hasVisible: false,
           displayFieldName: 'FCNAME',
           geometry: []
         }, {
-          url: '/static/data/GC_S.json',
+          url: '/static/data/GN_S.json',
           hasVisible: false,
           displayFieldName: 'FCNAME',
           geometry: []
