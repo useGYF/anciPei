@@ -16,17 +16,17 @@
     data() {
       return {
         layers: [{
-          url: '/static/data/TY1.json',
+          url: '/static/data/GC_Y.json',
           hasVisible: true,
           displayFieldName: 'FCNAME',
           geometry: []
         }, {
-          url: '/static/data/TE1.json',
+          url: '/static/data/GC_E.json',
           hasVisible: false,
           displayFieldName: 'FCNAME',
           geometry: []
         }, {
-          url: '/static/data/TS1.json',
+          url: '/static/data/GC_S.json',
           hasVisible: false,
           displayFieldName: 'FCNAME',
           geometry: []
@@ -487,8 +487,8 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#0070CE',
-              fillColor: '#2D96EF',
+              strokeColor: '#18dcff',
+              fillColor: '#18dcff',
               fillOpacity: 0.2
             };
             break;
@@ -496,8 +496,8 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#1C7B2A',
-              fillColor: '#6FB779',
+              strokeColor: '#67e6dc',
+              fillColor: '#67e6dc',
               fillOpacity: 0.2
             };
             break;
@@ -505,8 +505,8 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#8441c9',
-              fillColor: '#E8AAFF',
+              strokeColor: '#7158e2',
+              fillColor: '#7158e2',
               fillOpacity: 0.2
             };
             break;
