@@ -5,7 +5,7 @@
       <div class="input">
         <div class="warp-dl-tu">
           <img src="../assets/img/logo1.png" alt="">
-          <p>廊坊市广阳区网格化环境管理平台</p>
+          <p>廊坊市安次区网格化环境管理平台</p>
         </div>
        <div class="user">
           <strong>用户名</strong><input class="us" v-model="userName" type="text" placeholder="请输入用户名">
@@ -93,7 +93,7 @@
         }
         if(this.userName=='hbj'&&this.passWord=='123456'){
             _this.$message({
-                    message: '不忘初心，蓝天碧水！马上跳转',
+                    message: '即将跳转',
                     type: 'success'
                   });
             _this.setlocal('userInfo',obj);

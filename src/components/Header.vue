@@ -4,7 +4,7 @@
             <!--环境监测-->
             <div class="logo">
                 <img src="../assets/img/logo1.png" alt="logo">
-                <a style="color: #fff;font-size:21px;font-weight: 500;line-height: 56px;font-family: 'Microsoft YaHei' ">廊坊市广阳区网格化环境管理平台</a>
+                <a style="color: #fff;font-size:21px;font-weight: 500;line-height: 56px;font-family: 'Microsoft YaHei' ">廊坊市安次区网格化环境管理平台</a>
             </div>
            <!---->
             <ul class="bnav">

@@ -18,7 +18,7 @@ export default {
     path: '/api'
   },{
     site: 'http://120.52.157.162',
-    port: ':4015',
+    port: ':4035',
     path: '/api'
   },{
     site: 'http://192.168.30.243',//JAVA

@@ -7,7 +7,7 @@
                 <el-tabs v-model="activeNamexz" @tab-click="handleClick">
                     <el-tab-pane label="全市" name="third3"></el-tab-pane>
                     <el-tab-pane label="中部县区" name="second3"></el-tab-pane>
-                    <el-tab-pane label="广阳区" name="first3"></el-tab-pane>
+                    <el-tab-pane label="安次区" name="first3"></el-tab-pane>
                 </el-tabs>
             </div>
             <!--排名-->
@@ -43,7 +43,7 @@
                 //
                 allData: [],
                 //
-                type: '广阳区',
+                type: '安次区',
                 //
                 currentRow: null,
                 //
@@ -64,7 +64,7 @@
             //     let Xqlist = res.data.Data;
             //     this.InitializationDataMethod(Xqlist);
             // })
-            this.handleClick({label:'广阳区'}, '');
+            this.handleClick({label:'安次区'}, '');
         },
 
         methods: {
@@ -111,7 +111,7 @@
                         let Xqlist = res.data.Data;
                         this.InitializationDataMethod(Xqlist);
                         //地图传递
-                        if(this.type == '广阳区'){
+                        if(this.type == '安次区'){
                          	bus.$emit('loadCumulative', Xqlist, 'layer_cx', 'pm25', 'name');
                         }
                     })

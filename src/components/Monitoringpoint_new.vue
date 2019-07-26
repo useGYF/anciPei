@@ -11,7 +11,7 @@
       </div>
     </div>
     <!--详细天气-->
-    <div class="tqbiaoti">广阳区空气质量</div>
+    <div class="tqbiaoti">安次区空气质量</div>
     <strong v-if="tianqiyuji" class="strong">今日空气质量预计为：{{Datalist.quality}}</strong>
 
     <div class="Second">
@@ -84,7 +84,7 @@
       <div style="margin-top:0px">
         <el-radio-group v-model="shiquradio" size="small" @change="getMonitoring">
           <el-radio-button label="全市"></el-radio-button>
-          <el-radio-button label="广阳区"></el-radio-button>
+          <el-radio-button label="安次区"></el-radio-button>
         </el-radio-group>
       </div>
 
@@ -211,7 +211,7 @@
           case '全市':
             cityType = '1';
             break;
-          case '广阳区':
+          case '安次区':
             cityType = '2';
             break;
         }
