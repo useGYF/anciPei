@@ -487,9 +487,9 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#18dcff',
-              fillColor: '#18dcff',
-              fillOpacity: 0.2
+              strokeColor: '#ff5252',
+              fillColor: '#ff5252',
+              fillOpacity: 0.5
             };
             break;
           case 1:
@@ -498,7 +498,7 @@
               strokeStyle: 'dashed',
               strokeColor: '#67e6dc',
               fillColor: '#67e6dc',
-              fillOpacity: 0.2
+              fillOpacity: 0.5
             };
             break;
           case 2:
@@ -507,7 +507,7 @@
               strokeStyle: 'dashed',
               strokeColor: '#7158e2',
               fillColor: '#7158e2',
-              fillOpacity: 0.2
+              fillOpacity: 0.5
             };
             break;
         }
