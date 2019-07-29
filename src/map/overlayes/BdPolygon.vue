@@ -489,7 +489,7 @@
               strokeStyle: 'dashed',
               strokeColor: '#ff5252',
               fillColor: '#ff5252',
-              fillOpacity: 0.5
+              fillOpacity: 1
             };
             break;
           case 1:
@@ -498,7 +498,7 @@
               strokeStyle: 'dashed',
               strokeColor: '#67e6dc',
               fillColor: '#67e6dc',
-              fillOpacity: 0.5
+              fillOpacity: 1
             };
             break;
           case 2:
@@ -507,7 +507,7 @@
               strokeStyle: 'dashed',
               strokeColor: '#7158e2',
               fillColor: '#7158e2',
-              fillOpacity: 0.5
+              fillOpacity: 1
             };
             break;
         }
