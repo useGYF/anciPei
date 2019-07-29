@@ -2,21 +2,19 @@
   <!--监测点面板-->
   <div class="main">
     <!--选项查询-->
-    <div class="first">
+    <!-- <div class="first">
       <div class="tables">
-        <!--选项-->
         <a id="shishi" @click="RealTimeFatchtoo()" class="bai">实时</a>
         <a id="leiji" @click="CumulativeFatchtoo()">累计</a>
         <font class="time2">更新时间：{{NewUptime}}</font>
       </div>
-    </div>
+    </div> -->
     <!--详细天气-->
-    <div class="tqbiaoti">安次区空气质量</div>
+    <!-- <div class="tqbiaoti">安次区空气质量</div>
     <strong v-if="tianqiyuji" class="strong">今日空气质量预计为：{{Datalist.quality}}</strong>
 
     <div class="Second">
       <div class="tianqi">
-        <!--天气-->
         <div class="tqbj">
           <img class="beijing" :src="'static/imgs/weather/'+ Datalist.weather+'.png'" :title="Datalist.weather">
         </div>
@@ -78,12 +76,12 @@
           <li>{{CumulativeData.o3}}</li>
         </ol>
       </div>
-    </div>
+    </div> -->
     <!--选择项-->
     <div class="xuanzetbs">
       <div style="margin-top:0px">
         <el-radio-group v-model="shiquradio" size="small" @change="getMonitoring">
-          <el-radio-button label="全市"></el-radio-button>
+          <!-- <el-radio-button label="全市"></el-radio-button> -->
           <el-radio-button label="安次区"></el-radio-button>
         </el-radio-group>
       </div>
@@ -119,7 +117,7 @@
     data() {
       return {
         //
-        shiquradio: '全市',
+        shiquradio: '安次区',
         //
         shibaoradio: '日报',
         //默认选中国控点

@@ -5,8 +5,8 @@
             <!--选项查询-->
             <div class="first">
                 <el-tabs v-model="activeNamexz" @tab-click="handleClick">
-                    <el-tab-pane label="全市" name="third3"></el-tab-pane>
-                    <el-tab-pane label="中部县区" name="second3"></el-tab-pane>
+                    <!-- <el-tab-pane label="全市" name="third3"></el-tab-pane>
+                    <el-tab-pane label="中部县区" name="second3"></el-tab-pane> -->
                     <el-tab-pane label="安次区" name="first3"></el-tab-pane>
                 </el-tabs>
             </div>
