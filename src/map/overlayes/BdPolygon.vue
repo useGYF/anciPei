@@ -487,7 +487,7 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#ff5252',
+              strokeColor: '#333',
               fillColor: '#ff5252',
               fillOpacity: 1
             };
@@ -496,7 +496,7 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#67e6dc',
+              strokeColor: '#333',
               fillColor: '#67e6dc',
               fillOpacity: 1
             };
@@ -505,7 +505,7 @@
             sle = {
               strokeWeight: 1,
               strokeStyle: 'dashed',
-              strokeColor: '#7158e2',
+              strokeColor: '#333',
               fillColor: '#7158e2',
               fillOpacity: 1
             };
